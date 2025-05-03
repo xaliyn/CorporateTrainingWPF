@@ -1,4 +1,5 @@
-﻿using Corporate_Training_Management.Data;
+﻿using Corporate_Training_Management;
+using Corporate_Training_Management.Data;
 using Corporate_Training_Management.Models;
 using System;
 using System.Collections.Generic;
@@ -88,5 +89,13 @@ namespace Corporate_Training_Management
                 ExpertiseBox.Clear();
             }
         }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            var mainWin = new MainWindow();
+            mainWin.Show();
+            this.Close();
+        }
     }
 }
+

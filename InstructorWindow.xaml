@@ -26,6 +26,7 @@
             <Button Content="Add" Width="75" Margin="5" Click="Add_Click"/>
             <Button Content="Edit" Width="75" Margin="5" Click="Edit_Click"/>
             <Button Content="Delete" Width="75" Margin="5" Click="Delete_Click"/>
+            <Button Content="Back" Width="75" Margin="5" Click="Back_Click"/>
         </StackPanel>
     </Grid>
 </Window>

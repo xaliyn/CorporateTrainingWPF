@@ -88,6 +88,14 @@ namespace Corporate_Training_Management
                 JobBox.Clear();
             }
         }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            var mainWin = new MainWindow();
+            mainWin.Show();
+            this.Close();
+
+        }
     }
 }
 

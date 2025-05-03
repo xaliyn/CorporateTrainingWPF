@@ -143,6 +143,16 @@ namespace Corporate_Training_Management
             EndDatePicker.SelectedDate = null;
             InstructorDropdown.SelectedIndex = -1;
         }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+           
+                var mainWin = new MainWindow();
+                mainWin.Show();
+                this.Close();
+            
+
+        }
     }
 }
 
